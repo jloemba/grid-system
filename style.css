@@ -16,33 +16,37 @@ body{
 }
 
 .conteneur div{
-  background-color: purple;
   margin: 10px 0px;
   padding: 5px 10px;
-
 }
 
 
 .col-12{
+  background-color: purple;
   flex-basis: 100%;
 }
 
 .col-6{
+  background-color: red;
   flex-basis: 50%;
 }
 
 .col-4{
+  background-color: blue;
   flex-basis: 33.3%;
 }
 
 .col-3{
+  background-color: yellow;
   flex-basis: 25%;
 }
 
 .col-2{
+  background-color: green;
   flex-basis: 20%;
 }
 
 .col-1{
+  background-color: brown;
   flex-basis: 10%;
 }
