@@ -6,8 +6,8 @@ body{
 }
 
 .conteneur{
+  margin-top: 0.5em;
   margin: 0 auto;
-  background-color: lightgrey;
   max-width: 960px;
   display: flex; /* Indique que son contenu sera en FLex */
   justify-content: space-around;
@@ -15,38 +15,61 @@ body{
   flex-wrap: wrap;
 }
 
-.conteneur div{
-  margin: 10px 0px;
-  padding: 5px 10px;
+
+.row{ /* En flex , occupe toutes la largeure du conteneur */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0em -0.5em;
 }
 
 
 .col-12{
   background-color: purple;
   flex-basis: 100%;
+  background-clip: content-box;
+  padding: 0em 0.5em;
+
 }
 
 .col-6{
   background-color: red;
   flex-basis: 50%;
+  background-clip: content-box;
+  padding: 0em 0.5em;
 }
+
 
 .col-4{
   background-color: blue;
   flex-basis: 33.3%;
+  background-clip: content-box;
+  padding: 0em 0.5em;
+
 }
 
 .col-3{
   background-color: yellow;
   flex-basis: 25%;
+  background-clip: content-box;
+  padding: 0em 0.5em;
 }
+
 
 .col-2{
   background-color: green;
   flex-basis: 20%;
+  background-clip: content-box;
+  padding: 0em 0.5em;
 }
+
 
 .col-1{
   background-color: brown;
   flex-basis: 10%;
+  padding: 0em 0.5em;
+  background-clip: content-box;
+
 }
